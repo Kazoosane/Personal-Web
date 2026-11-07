@@ -1,5 +1,7 @@
 @import url('./index.css');
 
+/* -- HEADER -- */
+/*
 header {
     position: fixed;
     left: 0;
@@ -38,6 +40,71 @@ header {
                     &:hover {
                         color: #fff;
                         text-shadow: 0 0 5px purple;
+                    }
+                }
+            }
+        }
+    }
+}
+*/
+
+/* -- HEADER (DEMO) -- */
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px;
+    border-radius: 0 0 12px 12px;
+    border: 1px solid #333;
+    .header-bg-demo {
+        background-color: #aa3bff44;
+        padding: 0 16px;
+        color: #aa3bff;
+        font-weight: bold;
+        border-radius: 16px;
+        max-height: 24px;
+        display: flex;
+        align-items: center;
+    }
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-height: 48px;
+        #header-title {
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 24px;
+                font-weight: bold;
+                transition: color 0.3s;
+    
+                &:hover {
+                    color: white
+                }
+            }
+        }
+    
+        nav {
+            ul {
+                list-style: none;
+                display: flex;
+                gap: 16px;
+    
+                li {
+                    a {
+                        text-decoration: none;
+                        color: #ccc;
+                        transition: color 0.3s;
+    
+                        &:hover {
+                            color: #fff;
+                            text-shadow: 0 0 5px purple;
+                        }
                     }
                 }
             }

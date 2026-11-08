@@ -7,23 +7,58 @@ function App() {
     return (
         <>
             <Header />
-            <h1>HADI SUMANJAYA</h1>
-            <small>Pelajar aktif yang tertarik dengan pengembangan perangkat lunak.</small>
-            <Section 
-                title="PENGENALAN"
-                titleDescription="Perkenalan tentang diri saya."
-                content={
-                <p>
-                    Haloo, perkenalkan saya adalah salah satu murid di Jakarta Selatan yang masih aktif saat ini dan bersekolah di SMK Negeri 8 Jakarta.
-                </p>
-                }
-            />
-            <Section 
-                title="Section Title"
-                titleDescription="This is a description for the section."
-                content={<p>This is the content of the section.</p>}
-            />
-            <Contact/>
+
+            <main className="container">
+                <section className="intro">
+                    <h1>HADI SUMANJAYA</h1>
+                    <small>Pelajar aktif yang tertarik dengan pengembangan perangkat lunak.</small>
+                </section>
+
+                <Section
+                    title="PENGENALAN"
+                    titleDescription="Perkenalan tentang diri saya."
+                    content={
+                        <p>
+                            Haloo, perkenalkan saya adalah salah satu murid di Jakarta Selatan yang masih aktif saat ini dan bersekolah di SMK Negeri 8 Jakarta.
+                        </p>
+                    }
+                />
+
+                <Section
+                    title="KEAHLIAN SAYA"
+                    titleDescription="Beberapa teknologi dan kemampuan yang sedang saya pelajari dan kembangkan."
+                    content={
+                        <div className="skills">
+                            <div className="skills-list">
+                                <p>React</p>
+                                <p>Laravel</p>
+                                <p>Github</p>
+                            </div>
+                            <div className="skills-divider"></div>
+                            <div className="skills-detail">
+                                <p>Membangun web yang interaktif</p>
+                                <p>Membangun backend dengan menerapkan REST API</p>
+                                <p>Mengelola kode dan aplikasi sebelum lanjut ketahap berikutnya</p>
+                            </div>
+                        </div>
+                    }
+                />
+
+                <Section
+                    title="RENCANA KEDEPAN"
+                    titleDescription="Rencana saya 1 tahun kedepan"
+                    content={
+                        <ol>
+                            <li>Menguasai backend Laravel</li>
+                            <li>Menerapkan frontend dan backend dalam satu projek (misalnya Laravel + React)</li>
+                            <li>Semakin konsisten dan menyelesaikan projek besar</li>
+                            <li>Belajar bahasa pemrograman GO</li>
+                        </ol>
+                    }
+                />
+
+                <Contact />
+            </main>
         </>
     )
 }

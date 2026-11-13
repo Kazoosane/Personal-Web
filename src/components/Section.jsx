@@ -1,6 +1,6 @@
-export default function Section({title, titleDescription, content}) {
+export default function Section({id, title, titleDescription, content}) {
     return (
-        <section style={{ marginTop: '24px', display: 'flex', flexDirection: 'column',gap: '12px' }}>
+        <section id={id} style={{ marginTop: '24px', display: 'flex', flexDirection: 'column',gap: '12px' }}>
             <div>
                 <h2>{title}</h2>
                 <small>{titleDescription}</small>

@@ -1,7 +1,7 @@
 export default function Contact() {
     return (
         <>
-            <section style={{ marginTop: '24px', display: 'flex', flexDirection: 'column',gap: '8px' }}>
+            <section id="contact" style={{ marginTop: '24px', display: 'flex', flexDirection: 'column',gap: '8px' }}>
                 <div>
                     <h2>KONTAK SAYA</h2>
                     <small>Hubungi saya di:</small>
@@ -10,7 +10,7 @@ export default function Contact() {
                     <thead>
                         <tr>
                             <th>Email</th>
-                            <td><a mailto="hadisumanjaya282@gmail.com">hadisumanjaya282@gmail.com</a></td>
+                            <td><a href="mailto: hadisumanjaya282@gmail.com">hadisumanjaya282@gmail.com</a></td>
                         </tr>
                         <tr>
                             <th>Github</th>

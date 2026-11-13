@@ -10,10 +10,13 @@ export default function Header() {
                     <nav>
                         <ul>
                             <li>
-                                <a href="/">Beranda</a>
+                                <a href="">Beranda</a>
                             </li>
                             <li>
-                                <a href="">Tentang</a>
+                                <a href="">Keahlian</a>
+                            </li>
+                            <li>
+                                <a href="">Rencana</a>
                             </li>
                             <li>
                                 <a href="">Kontak</a>

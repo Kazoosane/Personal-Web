@@ -15,6 +15,7 @@ function App() {
                 </section>
 
                 <Section
+                    id="intro"
                     title="PENGENALAN"
                     titleDescription="Perkenalan tentang diri saya."
                     content={
@@ -25,6 +26,7 @@ function App() {
                 />
 
                 <Section
+                    id="skills"
                     title="KEAHLIAN SAYA"
                     titleDescription="Beberapa teknologi dan kemampuan yang sedang saya pelajari dan kembangkan."
                     content={
@@ -45,6 +47,7 @@ function App() {
                 />
 
                 <Section
+                    id="future-plan"
                     title="RENCANA KEDEPAN"
                     titleDescription="Rencana saya 1 tahun kedepan"
                     content={
